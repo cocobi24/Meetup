@@ -136,15 +136,15 @@
     {#each filteredMeetups as meetup (meetup.id)}
       <div transition:scale animate:flip={{duration: 300}}>
         <MeetupItem
-        id={meetup.id}
-        title={meetup.title}
-        subtitle={meetup.subtitle}
-        description={meetup.description}
-        imageUrl={meetup.imageUrl}
-        email={meetup.contactEmail}
-        address={meetup.address}
-        isFav={meetup.isFavorite}
-        on:edit={startEdit} />
+          id={meetup.id}
+          title={meetup.title}
+          subtitle={meetup.subtitle}
+          description={meetup.description}
+          imageUrl={meetup.imageUrl}
+          email={meetup.contactEmail}
+          address={meetup.address}
+          isFav={meetup.isFavorite}
+          on:edit={startEdit} />
       </div>
     {/each}
   </section>
