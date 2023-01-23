@@ -125,34 +125,34 @@
   }
 </style>
 
-<Modal title="Edit Meetup Data" on:cancel>
+<Modal title="모임 관리" on:cancel>
   <form on:submit={submitForm}>
     <TextInput
       id="title"
-      label="Title"
+      label="제목"
       valid={titleValid}
-      validityMessage="Please enter a valid title."
+      validityMessage="제목을 입력해 주세요."
       value={title}
       on:input={event => (title = event.target.value)} />
     <TextInput
       id="subtitle"
-      label="Subtitle"
+      label="소제목"
       valid={subtitleValid}
-      validityMessage="Please enter a valid subtitle."
+      validityMessage="소제목을 입력해 주세요."
       value={subtitle}
       on:input={event => (subtitle = event.target.value)} />
     <TextInput
       id="address"
-      label="Address"
+      label="주소"
       valid={addressValid}
-      validityMessage="Please enter a valid address."
+      validityMessage="주소를 입력해 주세요."
       value={address}
       on:input={event => (address = event.target.value)} />
     <TextInput
       id="imageUrl"
-      label="Image URL"
+      label="이미지 URL"
       valid={imageUrlValid}
-      validityMessage="Please enter a valid image url."
+      validityMessage="이미지 url을 입력해 주세요"
       value={imageUrl}
       on:input={event => (imageUrl = event.target.value)} />
     <TextInput
@@ -160,24 +160,24 @@
       label="E-Mail"
       type="email"
       valid={emailValid}
-      validityMessage="Please enter a valid email address."
+      validityMessage="이메일 주소를 입력해 주세요."
       value={email}
       on:input={event => (email = event.target.value)} />
     <TextInput
       id="description"
-      label="Description"
+      label="상세설명"
       controlType="textarea"
       valid={descriptionValid}
-      validityMessage="Please enter a valid description."
+      validityMessage="모임의 설명을 입력해 주세요."
       bind:value={description} />
   </form>
   <div slot="footer">
-    <Button type="button" mode="outline" on:click={cancel}>Cancel</Button>
+    <Button type="button" mode="outline" on:click={cancel}>취소</Button>
     <Button type="button" on:click={submitForm} disabled={!formIsValid}>
-      Save
+      저장
     </Button>
     {#if id}
-    <Button type="button" on:click={deleteMeetup}>Delete</Button>
+    <Button type="button" on:click={deleteMeetup}>삭제</Button>
     {/if}
   </div>
 </Modal>

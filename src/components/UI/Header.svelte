@@ -14,11 +14,11 @@
 
   h1 {
     color: white;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Dongle', sans-serif;
     margin: 0;
   }
 </style>
 
 <header>
-  <h1>MeetUs</h1>
+  <h1>여기모여</h1>
 </header>

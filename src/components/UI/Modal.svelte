@@ -67,7 +67,7 @@
   </div>
   <footer>
     <slot name="footer">
-      <Button on:click={closeModal}>Close</Button>
+      <Button on:click={closeModal}>닫기</Button>
     </slot>
   </footer>
 </div>

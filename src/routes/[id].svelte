@@ -75,7 +75,7 @@
         <h1>{loadedMeetup.title}</h1>
         <h2>{loadedMeetup.subtitle} - {loadedMeetup.address}</h2>
         <p>{loadedMeetup.description}</p>
-        <Button href="mailto:{loadedMeetup.contactEmail}">Contact</Button>
-        <Button mode="outline" href="/">Close</Button>
+        <Button href="mailto:{loadedMeetup.contactEmail}">참가</Button>
+        <Button mode="outline" href="/">닫기</Button>
     </div>
 </section> 

@@ -49,7 +49,7 @@
       selectedButton = 0;
       dispatch('select', 0)
     }}>
-    All
+    전체
   </button>
   <button 
     type="button" 
@@ -58,6 +58,6 @@
       selectedButton = 1;
       dispatch('select', 1)
     }}>
-    Favorites
+    좋아요
   </button>
 </div>

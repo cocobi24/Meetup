@@ -112,7 +112,7 @@
 </style>
 
 <svelte:head>
-  <title>All Meetups</title>
+  <title>여기모여</title>
 </svelte:head>
 
 {#if editMode === 'edit'}
@@ -123,10 +123,10 @@
 {:else}
   <section id="meetup-controls">
     <MeetupFilter on:select={setFilter} />
-    <Button on:click={startAdd}>New Meetup</Button>
+    <Button on:click={startAdd}>모임 만들기</Button>
   </section>
   {#if filteredMeetups.length === 0}
-    <p id="no-meetups">No meetups found, you can start adding some.</p>
+    <p id="no-meetups">모임이 존재하지 않습니다. 새로운 모임을 만들어 보세요.</p>
   {/if}
   <section id="meetups">
     {#each filteredMeetups as meetup (meetup.id)}

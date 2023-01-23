@@ -93,7 +93,7 @@
     <h1>
       {title}
       {#if isFav}
-        <Badge>FAVORITE</Badge>
+        <Badge>좋아요</Badge>
       {/if}
     </h1>
     <h2>{subtitle}</h2>
@@ -107,22 +107,22 @@
   </div>
   <footer>
     <Button mode="outline" type="button" on:click={() => dispatch('edit', id)}>
-      Edit
+      수정
     </Button>
     {#if isLoading}
       <!-- <LoadingSpinner /> -->
-      <span>Changing...</span>
+      <span>변경중...</span>
     {:else}
       <Button
         mode="outline"
         color={isFav ? null : 'success'}
         type="button"
         on:click={toggleFavorite}>
-        {isFav ? 'Unfavorite' : 'Favorite'}
+        {isFav ? '좋아요 취소' : '좋아요'}
       </Button>
     {/if}
     <Button href="/{id}">
-      Show Details
+      상세보기
     </Button>
   </footer>
 </article>
