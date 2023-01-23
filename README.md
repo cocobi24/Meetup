@@ -2,10 +2,10 @@
 # 여기모여
 <p align="center">
   <br>
-![메인](https://user-images.githubusercontent.com/73522666/214016389-51db8200-ccb0-474a-b296-e5a5ffa5f672.png)
+    <img src="https://user-images.githubusercontent.com/73522666/214016389-51db8200-ccb0-474a-b296-e5a5ffa5f672.png">
   <br>
 </p>
-<a src="https://meetup-cocobi24.koyeb.app/">https://meetup-cocobi24.koyeb.app/</a>
+<a href="https://meetup-cocobi24.koyeb.app/">https://meetup-cocobi24.koyeb.app/</a>
 <br><br>
 
 <!-- 프로젝트 소개 -->
