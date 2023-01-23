@@ -2,7 +2,7 @@
 # 여기모여
 <p align="center">
   <br>
-    <img src="./static/메인.PNG">
+![메인](https://user-images.githubusercontent.com/73522666/214016389-51db8200-ccb0-474a-b296-e5a5ffa5f672.png)
   <br>
 </p>
 <a src="https://meetup-cocobi24.koyeb.app/">https://meetup-cocobi24.koyeb.app/</a>
