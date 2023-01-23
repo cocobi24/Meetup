@@ -5,6 +5,8 @@
     <img src="./static/메인.PNG">
   <br>
 </p>
+<a src="https://meetup-cocobi24.koyeb.app/">https://meetup-cocobi24.koyeb.app/</a>
+<br><br>
 
 <!-- 프로젝트 소개 -->
 ## 프로젝트 소개
